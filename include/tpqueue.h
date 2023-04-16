@@ -9,6 +9,7 @@ class TPQueue {
   int volume;
   int first, second;
   int thisSize;
+
  public:
   TPQueue() :volume(size), first(0), second(0), thisSize(0) {
     container = new T[volume + 1];
